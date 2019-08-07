@@ -1,6 +1,5 @@
 Examples in C
 
-Use 'build all' to build all examples
-Use 'build hwserver' to build just hwserver (or any example)
-
-See LICENSE in examples directory
+mkdir build && cd build
+cmake ..
+make -j4
